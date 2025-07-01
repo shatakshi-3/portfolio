@@ -1,0 +1,207 @@
+* { 
+    margin: 0; /* Changed from 1px to 0 for better layout */
+    padding: 0; /* Changed from 1px to 0 for better layout */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%; /* Ensure full height for body */
+}
+
+.hero {
+    height: 90%;
+    width: 100%;
+    
+    padding: 15px;
+   
+    background-color: #4f46e5;
+  
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+    text-align: right;
+    
+   
+        
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50%;
+    padding: 5px; 
+    position: fixed;/* Adjusted padding for better spacing */
+}
+
+
+
+nav ul {
+    list-style-type:none;
+    padding: 0;
+    margin: 0; /* Use flexbox for better alignment */
+}
+
+nav ul li {
+    
+    display: inline;
+    margin-left: 20px; /* Added margin for spacing */
+    padding-right: 20px;
+}
+
+nav ul li a {
+    color:rgb(213, 231, 237);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+
+nav ul li a:hover {
+    color: rgb(13, 44, 155);
+    transition: 0.5s;
+}
+
+.homepage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* Full view height */
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    padding-top: 20px;
+    
+}
+
+.name{
+    color: #4f46e5;
+}
+.content {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+
+    background-color:white;
+    padding-left: 60px;
+    padding-right: 50px;
+    padding-top: 80px; /* Increased padding for better readability */
+    color: rgb(20, 23, 24);
+}
+
+.image{
+    margin-top: 30px;
+    margin-left:20px;
+    margin-right: 20px;
+    border-radius: 50%;
+    height: 30vh;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/*.left {
+    width: 100%;
+    background-color: rgb(84, 92, 91);
+    padding: 20px; /* Added padding for content */
+
+
+
+
+
+.btn {   
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 110px;
+    padding-top: 10px;
+   gap: 2.5rem;
+    width: 50%;
+
+
+}
+
+.b1{
+    
+    background-color: #4f46e5;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease-in-out,transform 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+
+.b1 :hover{
+    background-color: #4338ca;
+    transform: translateY(-2px);
+
+}
+.b2{
+    
+    background-color: #4f46e5;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease-in-out,transform 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+
+.b2 :hover{
+    background-color: #4338ca;
+    transform: translateY(-2px);
+
+}
+
+.icons {
+    display: flex;
+    justify-content: left;
+    flex-direction:row;
+
+    gap: 1.5em;
+    padding-top: 100px;
+    padding-left: 110px;
+    font-size: 1.5rem;
+    
+}
+
+
+/*box-shadow: 10px 15px 15 px white;
+
+text-shadow:12px 10px 10px yellow;
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    border: 5px splid black;
+
+}
+
+.box{
+    width: 20%;
+    height: 10%;
+    background-color: #4338ca;
+    animation-name: movement;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.box{
+    grid-template-columns: repeat(auto-fit,minmax(300px,400px));
+}
+*/
+
+ 
